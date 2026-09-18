@@ -1,0 +1,8 @@
+{
+  "name": "coco-de-guide",
+  "version": "1.0.0",
+  "author": "me",
+  "skills": "./skills",
+  "agents": "./agents",
+  "hooks": "./hooks/hooks.json"
+}
