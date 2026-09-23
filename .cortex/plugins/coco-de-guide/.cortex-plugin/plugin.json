@@ -1,0 +1,8 @@
+{
+  "name": "coco-de-guide",
+  "version": "1.0.0",
+  "author": "Monem Metwally",
+  "skills": ["./skills"],
+  "agents": ["./agents"],
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/validate-bash.sh",
+            "timeout": 10,
+            "statusMessage": "Validating dbt command..."
+          }
+        ]
+      }
+    ]
+  }
+}
